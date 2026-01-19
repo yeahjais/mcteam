@@ -1,0 +1,62 @@
+---
+// Navigation component
+---
+
+<nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center justify-content-center mt-1" href="/" style="margin-right: 0;">
+      <span style="font-family: 'Minecraft Ten'; font-size: 1.5rem;">MCBot</span>
+    </a>
+    <button 
+      data-bs-toggle="collapse" 
+      class="navbar-toggler" 
+      data-bs-target="#navcol-5" 
+      style="border-style: hidden;"
+    >
+      <span class="visually-hidden">Toggle navigation</span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navcol-5">
+      <ul class="navbar-nav ms-auto d-flex align-items-center" style="font-family: Minecraft; font-size: 0.9rem;">
+        <li class="nav-item">
+          <a class="nav-link active" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://mcbot.tech/discord">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://mcbot.tech/docs">Docs</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  /* Ensure vertical centering of navigation items */
+  .navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    align-items: center;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Ensure toggler is centered on mobile */
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    margin: 0;
+  }
+</style>
