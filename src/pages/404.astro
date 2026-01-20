@@ -1,8 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const title = "404 - Page Not Found";
+const description = "The page you are looking for does not exist.";
 ---
 
-<Layout>
+<Layout title={title} description={description}>
     <div class="container my-5" style=" display: flex; align-items: center; justify-content: center;">
         <!-- 404 Page Content -->
         <div class="text-center">
